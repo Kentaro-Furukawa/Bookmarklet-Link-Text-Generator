@@ -6,6 +6,6 @@ javascript: (() => {
         console.log('Invalid page title.')
     } else {
         const link = `[${incNo[0]}](https://example.com/${incNo[0]})`;
-        navigator.clipboard.writeText(link).then(console.log('done!'))
+        navigator.clipboard.writeText(link)
     }
 })()
